@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+/*
+
+body{
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+*/
+$azulFuerte: #2c3e50;
+$azulAgua: #c8ebdf;
+$azulAguaDos: #bbe6d6;
+$azulAguaTres: #a4c6b9;
+
+$cyan: #d03416;
+$cyanDos: #d03416;
+
+.divMenuBotones:hover {
+  cursor: pointer;
+  .redondo {
+    margin-top: -10px;
+    background-color: $cyanDos;
+    transition-duration: 0.5s;
+  }
+  p {
+    color: $cyanDos;
+    transition-duration: 0.5s;
+  }
+}
+
+a {
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.redondo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+  background-color: $cyan;
+}
+
+.icono {
+  margin-top: 40px;
+  font-size: 2em;
+}
+
+.contenido {
+  color: $azulFuerte;
+}
+
+.form-control {
+  border: 1px solid #e4f5ef;
+}
+
+.agregar {
+  width: 100%;
+  background: #fff;
+  color: $azulAgua;
+}
+
+.agregar:hover {
+  background-color: $azulAguaTres;
+  border: 1px solid $azulAguaTres;
+  color: #fff;
+}
+/*#########################*/
+.btn-infoDos {
+  background-color: $azulAguaDos;
+  border: 1px solid $azulAguaDos;
+  color: #fff;
+}
+
+.btn-infoDos:hover {
+  background-color: $azulAguaTres;
+  border: 1px solid $azulAguaTres;
+  color: #fff;
+}
+/*#########################*/
+.my-custom-scrollbar {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+.lChica {
+  font-size: 0.9em;
+}
+
+.cContenido {
+  background-color: #fff;
+}
+
+.modoMano {
+  cursor: pointer;
+}
+
+/*#######################
+CENTRADO
+#######################*/
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form {
+  width: 450px;
+}
+
+/*#######################
+RADIOBUTTOM
+#######################*/
+.bg-primary {
+  background-color: #d03416 !important;
+}
+
+/*#######################
+MAYUSCULAS
+#######################*/
+
+.mayusculas {
+  text-transform: uppercase;
+}
+
+/* estilos de prueba */
+/*.container {
+  border: 1px solid red; }
+
+.row {
+  border: 1px solid blue; }
+
+.row > * {
+  border: 1px solid green; }*/
+
+/*# sourceMappingURL=estilos.css.map */
